@@ -1,0 +1,20 @@
+{
+  "name": "friendlyquire",
+  "version": "1.0.0",
+  "description": "wrap require to make package-root-relative requires nicer",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nathan7/friendlyquire.git"
+  },
+  "keywords": [
+    "require",
+    "friendly"
+  ],
+  "author": "Nathan Zadoks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nathan7/friendlyquire/issues"
+  },
+  "homepage": "https://github.com/nathan7/friendlyquire"
+}
