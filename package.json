@@ -1,6 +1,6 @@
 {
   "name": "friendlyquire",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "wrap require to make package-root-relative requires nicer",
   "main": "index.js",
   "repository": {
