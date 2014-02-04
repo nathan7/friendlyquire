@@ -16,8 +16,8 @@ module.exports = function friendlyquire(realRequire) {
 
   function findRoot() {
     var path = '.'
-    for (var i = 0; i < 1000; i++)
-      try { return realResolve(Path.join(path, 'package.json')) }
+    for (var i = 0; i < 10; i++)
+      try { return Path.dirname(realResolve(path + '/package.json')) }
       catch (e) { path = Path.join(path, '..') }
     throw new Error('couldn\'t find package root')
   }
